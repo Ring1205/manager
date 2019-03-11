@@ -1,0 +1,125 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="mine_iv_head">
+        <item name="android:layout_width">@dimen/mine_head_src</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+    </style>
+
+    <style name="line_f0_1px">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/line_1px</item>
+        <item name="android:background">@color/colorLineCB</item>
+    </style>
+
+    <style name="text_item_start">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorTite</item>
+        <item name="android:textSize">@dimen/text_start</item>
+    </style>
+
+    <style name="text_item_end">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorTite</item>
+        <item name="android:textSize">@dimen/text_level</item>
+    </style>
+
+    <style name="text_item_tite_level">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorItem</item>
+        <item name="android:textSize">@dimen/text_level</item>
+    </style>
+
+    <style name="text_item_tite">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_top_margin</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorItem</item>
+        <item name="android:textSize">@dimen/text_least</item>
+    </style>
+
+    <style name="img_to_right">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:tint">@color/colorHite</item>
+        <item name="android:layout_marginRight">@dimen/text_margin</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text_tite_small_one">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/fab_margin</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorTite</item>
+        <item name="android:textSize">@dimen/text_start</item>
+    </style>
+
+    <style name="text_tite_small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:layout_marginTop">@dimen/text_least</item>
+        <item name="android:layout_marginBottom">@dimen/text_top_margin</item>
+        <item name="android:textColor">@color/colorTite</item>
+        <item name="android:textSize">@dimen/text_start</item>
+    </style>
+
+    <style name="editText_password">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/text_level</item>
+        <item name="android:digits">1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_!@#$%^&amp;*`~()-+=.,;>:</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:maxLength">15</item>
+        <item name="android:layout_marginRight">@dimen/text_margin</item>
+        <item name="android:inputType">textPassword</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="button_page">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:backgroundTint" tools:ignore="NewApi">@color/colorPrimary</item>
+        <item name="android:layout_marginRight">@dimen/text_margin</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="edit_item">
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:textSize">@dimen/text_level</item>
+        <item name="android:layout_marginLeft">@dimen/text_least</item>
+        <item name="android:layout_marginRight">@dimen/text_least</item>
+        <item name="android:paddingLeft">@dimen/text_top_margin</item>
+        <item name="android:paddingRight">@dimen/text_top_margin</item>
+        <item name="android:layout_width">@dimen/edit_layout_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

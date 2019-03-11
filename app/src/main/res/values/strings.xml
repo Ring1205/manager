@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">Extinguisher</string>
+
+    <string name="press_again_exit">Press again to exit</string>
+
+    <string name="home">Home</string>
+    <string name="count">Count</string>
+    <string name="service">Service</string>
+    <string name="mine">Mine</string>
+
+    <string name="change_password">Change Password</string>
+    <string name="change_phone_number">Change Phone Number</string>
+    <string name="add_phone_num">Add Phone Number</string>
+    <string name="modify_mailbox">Modify Mailbox</string>
+    <string name="add_email_adds">Add Email</string>
+    <string name="common_problem">Common Problem</string>
+    <string name="safety_fire_knowledge">Safety Fire Knowledge</string>
+    <string name="consumer_hotline">Consumer Hotline</string>
+    <string name="service_agreement">Service Agreement</string>
+    <string name="about_us">About Us</string>
+    <string name="quit">QUIT</string>
+
+    <string name="modify_password">Update password</string>
+    <string name="old_password">Old password</string>
+    <string name="new_password">New password</string>
+    <string name="confirm_new_password">Confirm new password</string>
+    <string name="hint_password">6~15 characters , Case sensitive letters.</string>
+    <string name="display_password">Display password</string>
+    <string name="forget_password">Forget password</string>
+    <string name="profile_picture">Profile picture :</string>
+    <string name="login_id">Login ID :</string>
+    <string name="login_account">Login account</string>
+    <string name="position">Position :</string>
+    <string name="your_position">Your position</string>
+    <string name="user_name">Username :</string>
+    <string name="your_name">Your name</string>
+    <string name="sex">Sex :</string>
+    <string name="your_gender">Your gender</string>
+    <string name="birthday">Date Of Birth :</string>
+    <string name="your_birthday">Your birthday</string>
+    <string name="mobile_phone">Mobile Phone :</string>
+    <string name="your_phone_number">Your phone number</string>
+    <string name="email_address">Email Address :</string>
+    <string name="e_mail_address">E-mail address</string>
+    <string name="passwd_ps">PS: Make sure it\'s more than 15 characters OR at least 6 characters including number, lowercase letter and special characters. </string>
+</resources>

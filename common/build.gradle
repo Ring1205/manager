@@ -1,0 +1,44 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion project.ext.compileSdkVersion
+    defaultConfig {
+        minSdkVersion project.ext.minSdkVersion
+        targetSdkVersion project.ext.targetSdkVersion
+        versionCode project.ext.versionCode
+        versionName project.ext.versionName
+
+        testInstrumentationRunner project.ext.testRunner
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+        lintOptions {
+            // true--错误发生后停止gradle构建
+            abortOnError false
+            //  true--所有正式版构建执行规则生成崩溃的lint检查，如果有崩溃问题将停止构建
+            checkReleaseBuilds false
+        }
+    }
+}
+
+dependencies {
+    implementation project.ext.dependencies.appCompat
+    implementation project.ext.dependencies.design
+    implementation project.ext.dependencies.retrofit
+    implementation project.ext.dependencies.rxjava
+    implementation project.ext.dependencies.rxandroid
+    implementation project.ext.dependencies.retrofit2adapter
+    implementation project.ext.dependencies.retrofit2gson
+    implementation project.ext.dependencies.urlconnection
+    implementation project.ext.dependencies.gson
+    implementation project.ext.dependencies.glide
+    testImplementation project.ext.dependencies.junit
+    androidTestImplementation project.ext.dependencies.testRunner
+    androidTestImplementation project.ext.dependencies.testEspresso
+    implementation files('libs/tbs_sdk_thirdapp_v3.6.0.1310_43612_sharewithdownload_withoutGame_obfs_20180706_163319.jar')
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23a3bd</color>
+    <color name="colorPrimaryDark">#23a3bd</color>
+    <color name="colorAccent">#23a3bd</color>
+
+    <color name="colorLine">#f0f0f0</color>
+    <color name="colorHite">#999999</color>
+    <color name="colorItem">#666666</color>
+    <color name="colorTite">#333333</color>
+    <color name="colorLineCB">#cbcbcb</color>
+    <color name="colorLineC9">#c9c9c9</color>
+
+    <color name="white">#ffffff</color>
+    <color name="blue">#4b9ffc</color>
+    <color name="red">#e51c23</color>
+</resources>

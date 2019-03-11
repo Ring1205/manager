@@ -1,0 +1,41 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.jzxfyun.manager"
+        minSdkVersion 15
+        targetSdkVersion 28
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation project.ext.dependencies.appCompat
+    implementation project.ext.dependencies.support
+    implementation project.ext.dependencies.design
+    testImplementation project.ext.dependencies.junit
+    androidTestImplementation project.ext.dependencies.testRunner
+    androidTestImplementation project.ext.dependencies.testEspresso
+    implementation 'com.aliyun.ams:alicloud-android-hotfix:3.2.8'
+    implementation project(':common')
+    implementation project(':map')
+    implementation project(':SRouter')
+    implementation project(':fragment')
+
+    implementation 'org.greenrobot:eventbus:3.1.1'
+}
+repositories {
+    mavenCentral()
+    // 阿里云热修复
+    maven {url "http://maven.aliyun.com/nexus/content/repositories/releases"}
+}

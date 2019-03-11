@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#23a3bd</color>
+    <color name="colorPrimaryDark">#42a6a3</color>
+    <color name="colorAccent">#23a3bd</color>
+
+    <color name="divider_line_color">#F0F0F0</color>
+    <color name="toolbar_menu">#AAAAFF</color>
+    <color name="common_title_color">#FFFFFF</color>
+    <color name="tab_unselect">#c9c9c9</color>
+    <color name="bg_btn">#dadada</color>
+</resources>

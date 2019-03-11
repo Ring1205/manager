@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">灭火器</string>
+
+    <string name="press_again_exit">再按一次退出</string>
+
+    <string name="home">首页</string>
+    <string name="count">统计</string>
+    <string name="service">服务</string>
+    <string name="mine">我的</string>
+
+    <string name="change_password">修改密码</string>
+    <string name="change_phone_number">修改手机号</string>
+    <string name="add_phone_num">添加手机号</string>
+    <string name="modify_mailbox">修改邮箱</string>
+    <string name="add_email_adds">添加邮箱</string>
+    <string name="common_problem">常见问题</string>
+    <string name="safety_fire_knowledge">消防知识</string>
+    <string name="consumer_hotline">投诉电话</string>
+    <string name="service_agreement">服务协议</string>
+    <string name="about_us">关于我们</string>
+    <string name="quit">退出</string>
+
+    <string name="modify_password">修改密码</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="hint_password">确保它是6~15个字符,包括数字和小写字母。</string>
+    <string name="display_password">显示密码</string>
+    <string name="forget_password">忘记密码</string>
+    <string name="profile_picture">头像：</string>
+    <string name="login_id">登录账号：</string>
+    <string name="login_account">用户账号</string>
+    <string name="position">用户角色：</string>
+    <string name="your_position">您的管理职位</string>
+    <string name="user_name">用户姓名：</string>
+    <string name="your_name">你的名字</string>
+    <string name="sex">用户性别：</string>
+    <string name="your_gender">您的性别</string>
+    <string name="birthday">出生日期：</string>
+    <string name="your_birthday">您的生辰</string>
+    <string name="mobile_phone">手机号码：</string>
+    <string name="your_phone_number">您的手机号</string>
+    <string name="email_address">电子邮箱：</string>
+    <string name="e_mail_address">邮箱地址</string>
+    <string name="passwd_ps">注意：请输入6-15位字符,包含大写字母、数字和特殊字符中的三种以上</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">common</string>
+
+    <string name="is_loading">加载中，请稍候</string>
+    <string name="data_abnormal">数据异常</string>
+    <string name="all_loaded">已全部加载</string>
+</resources>
